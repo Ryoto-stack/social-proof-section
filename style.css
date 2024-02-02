@@ -1,0 +1,164 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url("/images/bg-pattern-bottom-desktop.svg");
+    background-size: cover;
+    font-family: 'League Spartan', sans-serif;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.count {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    margin-right: 100px;
+}
+.count h1 {
+    font-size: 50px;
+    padding-bottom: 25px;
+    color: hsl(300, 43%, 22%);
+}
+.count p {
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+    line-height: 20px;
+}
+.stars {
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    width: 575px;
+}
+.stars h2 {
+    color: hsl(300, 43%, 22%);
+}
+
+.review-one, .review-two, .review-three {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(300, 24%, 96%);
+    justify-content: center;
+    align-items: center;
+}
+.review-one h2 {
+    padding-right: 40px;
+}
+.review-three h2 {
+    padding-right: 30px;
+}
+.review-one, .review-two{
+    display: flex;
+    margin-bottom: 10px;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+.review-two {
+    margin-left: 40px;
+}
+.review-three {
+    margin-left: 90px;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.five-star {
+    margin-right: 10px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.card-one, .card-two, .card-three {
+    background-color: hsl(300, 43%, 22%);
+    height: 250px;
+    width: 350px;
+}
+
+.card-one, .card-two {
+    margin-right: 25px;
+    border-radius: 15px;
+}
+.card-three {
+    border-radius: 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 30px;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+.info img {
+    margin-right: 10px;
+}
+.user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.name {
+    color: white;
+    font-weight: 500;
+    padding-bottom: 3px;
+}
+.verified {
+    color: hsl(333, 80%, 67%);
+}
+.text p {
+    font-size: 16px;
+    color: white;
+    line-height: 150%;
+    
+}
+.info img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.card-two{
+    margin-top: 30px;
+}
+.card-three {
+    margin-top: 60px;
+}
